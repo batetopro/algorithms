@@ -6,7 +6,7 @@ https://www.codewars.com/kata/5324945e2ece5e1f32000370
 import unittest
 
 
-class SumStringsTest(unittest.TestCase):
+class CentreOfAttentionTest(unittest.TestCase):
     def test_simple(self):
         image = Central_Pixels_Finder([1, 1, 4, 4, 4, 4, 2, 2, 2, 2,
                                        1, 1, 1, 1, 2, 2, 2, 2, 2, 2,
