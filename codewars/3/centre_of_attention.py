@@ -1,6 +1,6 @@
 """
 
-https://www.codewars.com/kata/5324945e2ece5e1f32000370
+https://www.codewars.com/kata/58c8c723df10450b21000024/python
 
 """
 import unittest
