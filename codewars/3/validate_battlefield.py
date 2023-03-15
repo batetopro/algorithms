@@ -8,7 +8,6 @@ import unittest
 
 class ValidateBattlefieldTest(unittest.TestCase):
     def test_simple(self):
-        return
         battle_field = [[1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
                        [1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
                        [1, 0, 1, 0, 1, 1, 1, 0, 1, 0],
@@ -22,7 +21,6 @@ class ValidateBattlefieldTest(unittest.TestCase):
         self.assertTrue(validate_battlefield(battle_field))
 
     def test_missing(self):
-        return
         battle_field = [[0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
                         [0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
                         [0, 0, 1, 0, 1, 1, 1, 0, 1, 0],
